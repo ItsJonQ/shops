@@ -2,7 +2,7 @@ import React from 'react';
 import './custom.css';
 import './ShoppingCart.css';
 
-export default function ShoppingCart() {
+export default function ShoppingCart(props) {
 	/**
 	 * ADD HTML PLEASE! THANK YOU!
 	 */

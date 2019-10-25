@@ -1,0 +1,57 @@
+/*
+    TODO: REFACTOR CLASS NAMES
+    ALSO, MOVED FROM ShoppingCard
+*/
+.title {
+	text-transform: uppercase;
+}
+
+.item {
+	display: flex;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.thumbnail {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	background: #ddd;
+	margin-right: 16px;
+}
+.thumbnail img {
+	object-fit: cover;
+}
+
+.content {
+	align-items: center;
+	display: flex;
+	flex: 1;
+}
+
+.content h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+.content p {
+	margin: 0;
+}
+
+.details {
+	flex: 1;
+}
+
+.plus-minus {
+	display: flex;
+	width: 120px;
+}
+
+.plus-minus input {
+	width: 48px;
+}
+
+.price {
+	width: 80px;
+	text-align: right;
+}
